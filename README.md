@@ -10,12 +10,22 @@ In your response, make sure to compare the time complexities for insertion, remo
 
 ### Response 1
 
+```
+We should choose arrays when we need fast random access and a predictable number of elements, linked lists when frequent insertion/deletion occurs at the beginning of the list but no random access, and doubly linked lists when we need frequent insertion/deletion at both the beginning and end of the list.
+
+
+Arrays have the fastest time using indexes but are difficult to modify dynamically. A singly linked list has linear traversal required to find an element and can only traverse forward. Doubly linked lists are similar to singly linked lists but can traverse both forward and backward effectively.
+
+
+In a singly linked list, each node stores a pointer to the next node, leading to extra memory usage, same for doubly linked list, but doubly stores pointers to both previous and next node, which leads to memory usage being double. Arrays use a contiguous block of memory, leading to effective catching.
+
+```
 
 ## Prompt 2
 
-Imagine you are developing a web browser's "back" button functionality. When a user clicks "back," the browser should navigate to the previously visited webpage. 
+Imagine you are developing a web browser's "back" button functionality. When a user clicks "back," the browser should navigate to the previously visited webpage.
 
-Would you use a stack or a queue to implement this functionality? 
+Would you use a stack or a queue to implement this functionality?
 
 In your response, explain what a Stack/Queue is and why it would be best for this use case. Make sure that your response includes the terms LIFO or FIFO.
 
@@ -27,11 +37,12 @@ What is an Abstract Data Type and why are they worth learning about?
 
 ### Response 3
 
+```
+Abstract Data Types(ADT) define a class of objects and the operations that can be performed on them, along with their expected behavior(semantics), but without specifying implementation details. ADT is worth learning because they provide a conceptual framework for organizing and manipulating data effectively, single or specific implementations.
+```
+
 ## Prompt 4
 
-A few classic problems involving a stack are the `isBalanced` and `isPalindrome` functions. Choose one of these functions and provide a solution to it along with a brief lesson explaining how it works. 
+A few classic problems involving a stack are the `isBalanced` and `isPalindrome` functions. Choose one of these functions and provide a solution to it along with a brief lesson explaining how it works.
 
 ### Response 4
-
-
-
