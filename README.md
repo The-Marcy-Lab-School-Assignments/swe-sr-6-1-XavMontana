@@ -31,9 +31,11 @@ In your response, explain what a Stack/Queue is and why it would be best for thi
 
 ### Response 2
 
-Mario response
-A stack is the best use for the "back" button because it follows the Last In First Out path. Each visited page is pushed onto the stack, and when the user clicks "back", the last page visited is popped off, returning them to the previous page. This mirrors expected browser behavior, making stacks the best choice for web navigation history.
+Mario response:
 
+```
+A stack is the best use for the "back" button because it follows the Last In First Out path. Each visited page is pushed onto the stack, and when the user clicks "back", the last page visited is popped off, returning them to the previous page. This mirrors expected browser behavior, making stacks the best choice for web navigation history.
+```
 
 ## Prompt 3
 
@@ -51,7 +53,7 @@ A few classic problems involving a stack are the `isBalanced` and `isPalindrome`
 
 ### Response 4
 
-Mario Response
+Mario Response:
 
 ```javascript
 function isBalanced(s) {
